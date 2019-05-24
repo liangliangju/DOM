@@ -1,0 +1,95 @@
+/*颜色样式表*/
+body{
+	color: #fb5; 
+	background-color: #d59a78;
+}
+a:link{
+	color: #445;
+	background-color: #eb6;
+}
+a:visited{
+	color: #345;
+	background-color: #eb6;
+}
+a:hover{
+	color: #667;
+	background-color: #fb5;
+}
+a:active{
+	color: #778;
+  background-color: #ec8;
+}
+header{
+	color: #ec8;
+	background-color: #d59a78;
+	border-color: white;
+}
+article {
+  color: #223;
+  background-color: #edc;
+  border-color: white;
+}
+
+/*设置导航条*/
+header nav {
+  color: #455;
+  background-color: white;
+  border-color: white;
+}
+
+header nav ul {
+  border-color: white;
+}
+
+header nav a:link,header nav a:visited {
+  color: #eef;
+  background-color: transparent;
+  /*transparent透明，即把背景色设置为透明*/
+  border-color: white;
+}
+header nav a:hover {
+  color: #445;
+  background-color: #eb6;
+}
+header nav a:active {
+  color: #667;
+  background-color: #ec8;
+}
+article img {
+  border-color: #ba9;
+  outline-color: #dcb;
+}
+#imagegallery a {
+  background-color: transparent;
+}
+
+/*设置当前页面的突出显示,设置一个here类的样式,表示当前链接*/
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active{
+	color:#eef;
+	background-color: #799;
+}
+
+article table td{
+  background-color: #d59a88;
+}
+
+article table th{
+  background-color: #d59a78;
+}
+
+.odd td{
+  background-color: #d59a98;
+}
+.highlight td{
+  background-color: #d87a78;
+}
+
+label{
+  display: block;
+}
+fieldset{
+  border:0;
+}

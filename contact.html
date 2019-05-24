@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Jay Skript and the Domsters</title>
+	
+	<link rel="stylesheet" media="screen" href="styles/basic.css" />
+</head>
+<body>
+	<header>
+		<img class="logo" src="images/logo1.png">
+		<nav>
+			<ul>
+				<li><a href="index.html" >Home </a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="photos.html">Photos</a></li>
+				<li><a href="live.html">Live</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<h1>给朱一龙发消息</h1>
+		<form method="post" action="submit.html">
+			<fieldset>
+				<p>
+					<!--label 的for属性把文字关联到相应的表单-->
+					<label for="name">姓名:</label>
+					<input type="text" name="name" id="name" placeholder="你的姓名">
+					<!--placeholder属性添加了占位符文本-->
+				</p>
+				<p>
+					<label for="email">邮箱:</label>
+					<input type="email" name="email" id="email" placeholder="你的邮箱">
+				</p>
+				<p>
+					<label for="message">消息:</label>
+					 <textarea cols="50"  rows="10" id="message" name="message" required="required" placeholder="写下想对朱一龙说的话"></textarea>
+				</p>
+				<input type="submit" name="submit" value="提交">
+			</fieldset>
+			
+		</form>
+		
+	<script src="scripts/global.js"></script>
+</body>
+</html>
